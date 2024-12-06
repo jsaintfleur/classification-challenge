@@ -2,6 +2,8 @@
 
 This project leverages supervised machine learning to classify emails as spam or not spam. By training and evaluating Logistic Regression and Random Forest models, the goal is to enhance the email filtering system of an Internet Service Provider (ISP).
 
+![Spam Email Classifier](images/spam_email.png)
+
 ## Project Overview
 
 This repository includes:
