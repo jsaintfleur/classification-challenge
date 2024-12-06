@@ -33,9 +33,19 @@ This repository includes:
 
 ## File Structure
 
-- `spam_detector.ipynb`: The primary Jupyter Notebook containing data preparation, model implementation, and performance evaluation.
-- `README.md`: Overview and instructions for the project.
-- `data/`: Placeholder for datasets used for training and testing.
+- `images/`: Contains visual assets used in the project.
+  - `features.png`: Visualizes the dataset features.
+  - `model_acc.png`: Comparison of model accuracy.
+  - `model_precision_comp.png`: Comparison of model precision.
+  - `model_recall_comp.png`: Comparison of model recall.
+  - `spam_email.png`: Introductory image for the project.
+- `CREDITS.md`: Acknowledgements and attributions for external resources used in the project.
+- `LICENSE`: Project license information.
+- `README.md`: Overview, instructions, and project documentation.
+- `spam_detector.ipynb`: Jupyter Notebook containing the data preparation, model training, and evaluation code.
+- `spam-data.csv`: The dataset used for training and testing the models.
+- `.gitignore`: Specifies files and directories to be ignored by Git.
+
 
 ## Dataset
 
@@ -200,8 +210,5 @@ This project demonstrates how supervised machine learning can be used to improve
 2. **Deploying the Models**:
    - The next phase would involve integrating the Random Forest model into a real-world email filtering system and testing it with live data.
    - A Logistic Regression model could serve as a lightweight backup system for real-time filtering in resource-constrained environments.
-
-This project provides a strong foundation for developing effective spam detection systems. The results highlight the importance of model selection, feature scaling, and metric evaluation in building robust machine learning solutions.
-
 
 [Back to Top](#Table-of-Contents)
