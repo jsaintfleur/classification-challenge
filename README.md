@@ -43,7 +43,7 @@ The dataset contains numerical features extracted from emails and a target colum
 - **Spam (1)**: Unwanted email.
 - **Not Spam (0)**: Legitimate email.
 
-The dataset can be accessed [here](https://static.bc-edx.com/ai/ail-v-1-0/m13/challenge/spam-data.csv).
+The dataset can be downloaded [here](https://static.bc-edx.com/ai/ail-v-1-0/m13/challenge/spam-data.csv).
 
 ## Getting Started
 
