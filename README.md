@@ -118,9 +118,11 @@ By visualizing the accuracy and analyzing the results, it is evident that both m
 
 ## Bonus Section: Precision and Recall Analysis
 
-### Final Assessment
+# Final Assessment
 
 Both models perform well, but the **Random Forest model** is slightly better for this dataset due to its superior precision and recall. It would likely be the preferred choice unless simplicity or training speed is a major concern, where Logistic Regression could be considered.
+
+---
 
 ### Precision
 **Definition**: Precision measures how many of the emails predicted as spam by the model are actually spam.
@@ -131,6 +133,8 @@ Both models perform well, but the **Random Forest model** is slightly better for
   - Out of all the emails classified as spam by the Random Forest model, 96% are truly spam.
 
 **Interpretation**: A high precision indicates that the model is good at minimizing false positives (legitimate emails mistakenly marked as spam).
+
+![Model Precision Comparison](images/model_precision_comp.png)
 
 ---
 
@@ -144,7 +148,10 @@ Both models perform well, but the **Random Forest model** is slightly better for
 
 **Interpretation**: A high recall means the model is good at minimizing false negatives (spam emails that were missed).
 
+![Model Recall Comparison](images/model_recall_comp.png)
+
 ---
+
 
 ### Comparison of the Models
 #### Random Forest Outperforms Logistic Regression:
